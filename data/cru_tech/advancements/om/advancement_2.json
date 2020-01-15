@@ -1,0 +1,21 @@
+{	
+	"display":
+	{
+		"icon": {"item":"minecraft:stone_bricks"},
+		"title": {"text": "collect bricks"},
+		"description": {"text": "good job "}
+	},
+	"parent": "cru_tech:om/root",
+	"criteria":
+	{
+		"instant":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":     
+					[ {"item": "minecraft:bricks"} ]
+			}
+		}
+	}
+}	

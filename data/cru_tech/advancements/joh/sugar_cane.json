@@ -1,0 +1,38 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:sugar_cane"},
+		"title": {"text": "Cavities not included"},
+		"description": {"text": "I would use that stack of sugar cane to make paper but what do I know? I'm not your mother."},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "crutech:joh/master_farmer",
+	"criteria":
+	{
+		"64_sugar_cane":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:sugar_cane",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"64_sugar_cane"
+		]
+	]
+}
+
+

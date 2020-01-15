@@ -1,0 +1,19 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:gold_ore"},
+		"title": {"text": "this is a title"},
+		"description": {"text": "this is not a descrption"},
+		"show_toast": false,
+		"announce_to_chat": true
+	},
+	"parent": "cru_tech:ross/root",
+	"criteria":
+	{
+		"cake":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions": {"item": {"item": "minecraft:cake"}}
+		}
+	}
+}

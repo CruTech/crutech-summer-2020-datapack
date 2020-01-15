@@ -1,0 +1,38 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:cocoa_beans"},
+		"title": {"text": "Chocolate is a Vegetable"},
+		"description": {"text": "Collect a stack of cocoa beans. Crush the nibby-ness."},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "crutech:joh/master_farmer",
+	"criteria":
+	{
+		"64_cocoa_beans":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:cocoa_beans",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"64_cocoa_beans"
+		]
+	]
+}
+
+

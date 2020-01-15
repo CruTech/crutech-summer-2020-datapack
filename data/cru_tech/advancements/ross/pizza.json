@@ -1,0 +1,28 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:bedrock"},
+		"title": {"text": "this is pizza"},
+		"description": {"text": "and it has no descrption"},
+		"show_toast": false,
+		"announce_to_chat": true
+	},
+	"parent": "cru_tech:ross/root",
+	"criteria":
+	{
+		"bread":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions": {"item": {"item": "minecraft:bread"}}
+		},
+		"bacon":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions": {"item": {"item": "minecraft:cooked_porkchop"}}
+		},
+		"cheese":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {"items": [{"item": "minecraft:gold_ingot"}]}	
+		}										}
+}

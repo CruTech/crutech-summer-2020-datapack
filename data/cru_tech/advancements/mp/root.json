@@ -1,0 +1,17 @@
+{
+	"display":
+	{
+			"icon": {"item": "minecraft:player_head"},
+			"title": {"text": "Existing"},
+			"description": {"text": "It’s an achievement in itself."},
+			"background": "minecraft:textures/block/grass_block_top.png",
+			"show_toast": true,
+			"announce_to_chat": true,
+			"hidden": false
+	},
+	"criteria":
+	{
+		"instant":
+		{"trigger": "minecraft:tick"}
+	}
+}

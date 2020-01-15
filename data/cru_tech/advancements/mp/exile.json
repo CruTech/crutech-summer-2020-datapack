@@ -1,0 +1,13 @@
+{
+	"display": 
+	{		"icon": {"item": "minecraft:diamond_sword"},		"title": {"text": "Obi Wan Exile"},		"description": {"text": "You've done a terrible terrible thing. Go hide in the desert."},
+		"frame": "goal",
+		"show_toast": true,		"announce_to_chat": true,		"hidden": false	},	"parent": "cru_tech:mp/kill",	"criteria":	{		"exile":		{
+			"trigger": "minecraft:effects_changed",
+			"conditions":
+			{
+				"effects": {"minecraft:bad_omen": {}}
+			}
+		}
+	}
+}

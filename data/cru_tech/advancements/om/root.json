@@ -1,0 +1,14 @@
+{	
+	"display":
+	{
+		"icon": {"item":"minecraft:bricks"},
+		"title": {"text": "this is a title"},
+		"description": {"text": "this is a description"},
+		"background": "minecraft:textures/block/dirt.png"
+	},
+	"criteria":
+	{
+		"instant":
+			{"trigger": "minecraft:tick"}
+	}
+}	

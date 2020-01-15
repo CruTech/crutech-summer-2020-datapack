@@ -1,0 +1,22 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:iron_block"},
+		"title":{"text": "placed block"},
+		"description":{"text":"created buildings"},
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"parent":"cru_tech:hy/root",
+	"criteria":
+	{
+		"block":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions":{"block":"minecraft:iron_block"}
+
+		}
+	}		
+}
+

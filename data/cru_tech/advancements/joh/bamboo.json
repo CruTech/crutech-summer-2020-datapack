@@ -1,0 +1,38 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:bamboo"},
+		"title": {"text": "IT GROWS LIKE A WEED!!! "},
+		"description": {"text": "You only need a stack. Shouldn't take long."},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "crutech:joh/master_farmer",
+	"criteria":
+	{
+		"64_bamboo":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:bamboo",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"64_bamboo"
+		]
+	]
+}
+
+

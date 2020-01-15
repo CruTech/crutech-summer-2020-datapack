@@ -1,0 +1,38 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:potato"},
+		"title": {"text": "Chips for days!"},
+		"description": {"text": "Collect a stack of potatoes. They're the best. Fight me."},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "crutech:joh/master_farmer",
+	"criteria":
+	{
+		"64_potatoes":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:potato",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"64_potatoes"
+		]
+	]
+}
+
+

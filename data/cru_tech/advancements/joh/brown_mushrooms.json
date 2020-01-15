@@ -1,0 +1,38 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:brown_mushroom"},
+		"title": {"text": "Vitamin D Deficiency"},
+		"description": {"text": "Collect a stack of brown mushrooms from a deep, dark cave."},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "crutech:joh/master_farmer",
+	"criteria":
+	{
+		"64_brown_mushrooms":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:brown_mushroom",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"64_brown_mushrooms"
+		]
+	]
+}
+
+

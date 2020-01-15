@@ -1,0 +1,18 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:sunflower"},
+		"title": {"text": "Farmy McFarmface"},
+		"description": {"text": "Farmy McFarmface is farming. Help them farm. Do all the farm things. Prosper."},
+		"frame": "task",
+		"background": "minecraft:textures/block/hay_block_top.png",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"instant":
+			{"trigger": "minecraft:tick"}
+	}
+}

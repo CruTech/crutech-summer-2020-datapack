@@ -1,0 +1,28 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:enchanted_golden_apple"},
+		"title":{"text": "levitation"},
+		"description":{"text":"height"},
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"parent":"cru_tech:hy/root",
+	"criteria":
+	{
+		"instant":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"y":
+					{"min":250}
+				}
+			}
+		}
+	}		
+}
+

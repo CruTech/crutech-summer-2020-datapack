@@ -1,0 +1,19 @@
+{
+	"display": 
+	{
+	
+		"icon": {"item": "minecraft:oak_sign"},
+		"title": {"text": "a"},
+		"description": {"text": "a"},
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "cru_tech:hcktwo/third_word",
+	"criteria":
+	{
+		"fourth_word":
+			{"trigger": "minecraft:tick"}
+	}
+}
+
+							

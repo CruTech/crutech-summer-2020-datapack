@@ -1,0 +1,36 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:gold_sword"},
+		"title": {"text": "True Monster Killer"},
+		"description": {"text": "Don't need those fancy diamonds"},
+		"frame": "challenge"
+	},
+	"parent": "cru_tech:damoss/root",
+	"criteria":
+	{
+				"rabbit":
+		{
+			"trigger": "imposable",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "rabbit"
+				},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"nbt": "{SelectedItem:{id:\"minecraft:gold_sword\"}}"
+					}
+				}
+			}
+		},
+		"rewards":
+	{
+		"function": "cru_tech:damoss/monster_trigger"
+	}
+}
+
+scoreboard objectives add rabbits minecraft.killed:minecraft.rabbit

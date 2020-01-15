@@ -1,0 +1,61 @@
+{
+	"display":
+	{
+		"icon": { "item": "minecraft:oak_boat" },
+		"title": {"text": "At World's End (x4)!"},
+		"description": {"text": "Reach all four sides of the world border"},
+		"show_toast": false
+	},
+	"parent":"cru_tech:nonegiven9/root",
+	"criteria": 
+	{
+		"x_pos":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x": {"min": 29999983}
+				}
+			}
+		},
+
+		"x_neg":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x": {"max": -29999983}
+				}
+			}
+		},
+	
+
+		"z_pos":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"z": {"min": 29999983}
+				}
+			}
+		},
+
+		"z_neg":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"z": {"max": -29999983}
+				}
+			}
+		}
+	}
+}

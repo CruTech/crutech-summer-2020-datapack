@@ -1,0 +1,19 @@
+{
+	"display": 
+	{
+	
+		"icon": {"item": "minecraft:oak_sign"},
+		"title": {"text": "Hi,"},
+		"description": {"text": "Hi,"},
+		"background": "minecraft:textures/block/lapis_block.png",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria":
+	{
+		"first_word":
+			{"trigger": "minecraft:tick"}
+	}
+}
+
+							

@@ -1,0 +1,79 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:diamond_hoe"},
+		"title": {"text": "Master Farmer"},
+		"description": {"text": "Harvest and hold a stack of all the stuff you've grown in your farm."},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "crutech:joh/root",
+	"criteria":
+	{
+		"all_the_things":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:bamboo",
+						"count": 64
+					},
+					{
+						"item": "minecraft:beetroot",
+						"count": 64
+					},
+					{
+						"item": "minecraft:brown_mushroom",
+						"count": 64
+					},
+					{
+						"item": "minecraft:cactus",
+						"count": 64
+					},
+					{
+						"item": "minecraft:carrot",
+						"count": 64
+					},
+					{
+						"item": "minecraft:cocoa_beans",
+						"count": 64
+					},
+					{
+						"item": "minecraft:melon",
+						"count": 64
+					},
+					{
+						"item": "minecraft:potato",
+						"count": 64
+					},
+					{
+						"item": "minecraft:pumpkin",
+						"count": 64
+					},
+					{
+						"item": "minecraft:sugar_cane",
+						"count": 64
+					},
+					{
+						"item": "minecraft:sweet_berries",
+						"count": 64
+					},
+					{
+						"item": "minecraft:wheat",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"experience": 10
+	}
+}
+

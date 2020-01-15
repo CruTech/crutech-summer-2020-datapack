@@ -1,0 +1,18 @@
+{	
+	"display":
+	{
+		"icon": {"item":"minecraft:"trident"},
+		"title": {"text": "oceon monument"},
+		"description": {"text": "find an oceon monument"}
+	},
+	"parent": "cru_tech:om/root",
+	"criteria":
+	{
+		"monument":
+		{
+			"trigger":"minecraft:location",
+			"conditions": {"feture":"Monument"}
+		}	
+	}
+
+}

@@ -1,0 +1,12 @@
+{
+	"display": 
+	{		"icon": {"item": "minecraft:salmon"},		"title": {"text": "Not So Silly Salmon Challenge"},		"description": {"text": "You’ve caught a salmon. Why not do the silly salmon challenge in celebration (just don't die)."},
+		"frame": "challenge",
+		"show_toast": true,		"announce_to_chat": true,		"hidden": false	},	"parent": "cru_tech:mp/root",	"criteria":	{		"salmon":		{
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions":
+			{"item": {"item": "minecraft:salmon"}}
+		}
+
+	}
+}

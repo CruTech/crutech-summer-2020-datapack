@@ -1,0 +1,16 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:dirt"},
+		"title": {"text": "this is a title"},
+		"description": {"text": "this is a descrption"},
+		"background": "minecraft:textures/block/dirt.png",
+		"show_toast": false,
+		"announce_to_chat": true
+	},
+	"criteria":
+	{
+		"instant":
+			{"trigger": "minecraft:tick"}
+	}
+}

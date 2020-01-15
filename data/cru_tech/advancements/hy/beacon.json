@@ -1,0 +1,20 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:beacon"},
+		"title":{"text": "construct a beacon"},
+		"description":{"text":"created a beacon"},
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"parent":"cru_tech:hy/root",
+	"criteria":
+	{
+		"instant":
+		{
+			"trigger": "minecraft:construct_beacon"
+		}
+	}		
+}
+

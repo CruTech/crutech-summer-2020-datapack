@@ -1,0 +1,17 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:sunflower"},
+		"title":{"text": "sunflower"},
+		"description":{"text": "sunflowers are pretty"},
+		"background":"minecraft:textures/block/stone.png",
+		"show_toast":true,
+		"announce_to_chat":true,
+		"hidden":false
+	},
+	"criteria":
+	{
+		"instant":
+			{"trigger": "minecraft:tick"}
+	}
+}

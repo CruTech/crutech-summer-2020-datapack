@@ -1,0 +1,18 @@
+{
+	"display":
+	{
+		"icon": { "item": "minecraft:trident" },
+		"title": {"text": "The First Advancement"},
+		"description": {"text": "Successfully load an advancement from your 
+datapack:"},
+		"background": "minecraft:textures/block/bedrock.png",
+		"show_toast": false
+	},
+	"criteria": 
+	{
+		"instant": 
+			{"trigger": "minecraft:tick"}
+        }
+
+	
+}

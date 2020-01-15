@@ -1,0 +1,7 @@
+{
+	"display": 
+	{		"icon": {"item": "minecraft:zombie_head"},		"title": {"text": "First kill"},		"description": {"text": "You've gotten your first kill. Feel bad yet?"},
+		"frame": "goal",
+		"show_toast": true,		"announce_to_chat": true,		"hidden": false	},	"parent": "cru_tech:mp/root",	"criteria":	{		"kill":		{"trigger": "minecraft:player_killed_entity"}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"display": 
+	{
+	
+		"icon": {"item": "minecraft:tnt"},
+		"title": {"text": "Subscribe to Pewdiepie!"},
+		"description": {"text": "Congratulations you subscribed to Pewdiepie!!"},
+		"background": "minecraft:textures/block/bedrock.png",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria":
+	{
+		"subscribe":
+			{"trigger": "minecraft:tick"}
+	}
+}
+
+							

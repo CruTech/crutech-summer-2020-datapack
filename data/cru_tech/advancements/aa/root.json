@@ -1,0 +1,15 @@
+{
+    "display": 
+	{
+        "icon": {"item": "minecraft:iron_block"},
+        "title": {"text":"hydra boi"},
+        "description": {"text":"you have gotten block"},
+        "background": "minecraft:textures/block/tnt.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": 
+	{
+        "instant": {"trigger": "minecraft:tick"}
+    }
+}

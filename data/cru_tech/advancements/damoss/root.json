@@ -1,0 +1,16 @@
+{
+	"display":
+	{
+		"icon":{"item":"minecraft:trident"},
+		"title": {"text":"minecraft:trident"},
+		"description": {"text": "achievements to start:"},
+		"background": "mincraft:textures/block/dirt.png",
+		"show_toast": false,
+		"announce_tost_chat": true
+	},
+	"criteria":
+	{
+		"instant":
+			{"trigger": "minecraft:tick"}
+	}
+}

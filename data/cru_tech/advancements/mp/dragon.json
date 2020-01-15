@@ -1,0 +1,13 @@
+{
+	"display": 
+	{		"icon": {"item": ""},		"title": {"text": "Impossible?"},		"description": {"text": "You somehow managed to kill the Ender Dragon with a gold sword. How in Notch's name did you do that?!"},
+		"frame": "goal",
+		"show_toast": true,		"announce_to_chat": true,		"hidden": false	},	"parent": "cru_tech:mp/root",	"criteria":	{		"dragon":			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity": {"type": "minecraft:ender_dragon"},
+				"killing_blow":
+				{"source_entity":{"nbt": "{SelectedItem:{id:\"minecraft:golden_sword\"}}"}}
+			}
+	}
+}
